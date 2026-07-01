@@ -57,7 +57,7 @@ const TakeExam: React.FC<Props> = ({ examId, examTitle, duration, onBack }) => {
     if (sessionId) {
       try {
         await axios.post(
-          'http://localhost:5204/api/Answer',
+          'https://onlineexamsystem-production-e8c8.up.railway.app/api/Answer',
           { sessionId, questionId, answerText },
           { headers: { Authorization: `Bearer ${localStorage.getItem('token')}` } }
         );

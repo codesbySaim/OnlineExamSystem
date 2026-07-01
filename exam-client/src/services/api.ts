@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:5204/api';
+const API_BASE_URL = 'https://onlineexamsystem-production-e8c8.up.railway.app/api';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
