@@ -1,0 +1,20 @@
+# .NET
+bin/
+obj/
+*.user
+appsettings.Development.json
+
+# Node/React
+node_modules/
+build/
+.env
+.env.local
+
+# IDE
+.vs/
+.vscode/
+*.suo
+
+# Database
+*.mdf
+*.ldf

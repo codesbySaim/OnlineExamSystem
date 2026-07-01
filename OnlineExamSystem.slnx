@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="OnlineExam.API/OnlineExam.API.csproj" />
+  <Project Path="OnlineExam.Core/OnlineExam.Core.csproj" />
+  <Project Path="OnlineExam.Infrastructure/OnlineExam.Infrastructure.csproj" />
+</Solution>
